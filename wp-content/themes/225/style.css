@@ -1,0 +1,398 @@
+/*
+Theme Name: 225
+Description: 225 Site
+*/
+
+/* 225 gold: #e3b55b */
+
+@font-face {
+	font-family: Futura;
+	src: url(fonts/Futura.ttc);
+}
+
+@font-face {
+	font-family: Futura-Bold;
+	src: url(fonts/Futura-Bold.otf);
+}
+
+@font-face {
+	font-family: HelveticaNeue;
+	src: url(fonts/HelveticaNeue.ttc);
+}
+
+/* Body  */
+
+body {
+  font-family: HelveticaNeue;
+  background-color: #000000;
+	margin: 0;
+}
+
+
+
+/* header */
+
+.header {
+  background-color: #000000;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.header a {
+	color: #ffffff;
+}
+
+.header ul {
+  margin: 0;
+  padding-top: 25px;
+	padding-right: 25px;
+  list-style: none;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.header li a {
+  display: block;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+
+/* menu */
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: #e3b55b;
+  display: block;
+  height: 5px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 45px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #e3b55b;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 10px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -10px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
+
+
+/* Home */
+
+#homeHero {
+  position: relative;
+}
+
+#homeHero .hero-image {
+  background-image: url(images/2two5_header-image.jpg);
+  height: 103vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	margin-top: -75px;
+}
+
+#homeContent {
+  position: relative;
+}
+
+#homeContent hr {
+  width:100%;
+  height: 20px;
+  background-color: #e3b55b;
+  position: relative;
+  top: 16px;
+}
+
+#homeContent .content-image {
+  background-image: url(images/2two5_website_Home-Page_cropped.jpg);
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#homeContent .content-text {
+  position:relative;
+  top: 50px;
+  left: 15px;
+  padding: 20px;
+  color: #000000;
+}
+
+#homeContent .content-text h1 {
+  font-family: Futura-Bold;
+	font-size: 50px;
+  line-height: .9em;
+}
+
+#homeContent .content-text p {
+	padding-top: 5px;
+  padding-right: 45px;
+  line-height: 2em;
+}
+
+/* About */
+
+#aboutTop {
+	padding-top: 100px;
+	height: 103vh;
+}
+
+#aboutTop h1 {
+	font-family: Futura-Bold;
+	font-size: 60px;
+	color: #e3b55b;
+  line-height: .9em;
+}
+
+#aboutTop p {
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 2em;
+	padding: 20px 10px;
+}
+
+#aboutTop img {
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+}
+
+#aboutContent .about-content-image {
+	background-image: url(images/2two5_website_About-Page.jpg);
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+}
+
+.footer-wrapper {
+  height: 80vh;
+  padding: 75px 0 10px 0;
+}
+
+.footer-wrapper h3 {
+  font-family: Futura-Bold;
+  color: #e3b55b;
+}
+
+.footer-wrapper ul {
+  padding-left: 0px;
+}
+
+
+.footer-wrapper li {
+  list-style-type: none;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 20px 0;
+}
+
+.footer-wrapper .icons {
+	padding-top: 10px;
+}
+
+.footer-wrapper .icons li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer-wrapper .icons img {
+  width: auto;
+  height: 50px;
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+
+  /* Navbar */
+
+  /* Home Page */
+
+  #homeHero .hero-image {
+    height:75vh;
+		margin-top: -20px;
+  }
+
+	#homeContent .content-image {
+	  background-position-x: -750px;
+	}
+
+	#homeContent .content-text-mobile h1 {
+	  font-family: Futura-Bold;
+		font-size: 50px;
+	  line-height: .9em;
+		padding-top: 20px;
+	}
+
+	#homeContent .content-text-mobile p {
+		padding-top: 5px;
+	  line-height: 1.5em;
+	}
+
+	/* About */
+
+	#aboutTop h1 {
+		font-size: 50px;
+	}
+
+	#aboutTop p {
+		font-size: 16px;
+	}
+
+	#aboutTop img {
+		padding-top: 50px;
+		padding-left: 5px;
+	}
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+
+
+  /* Header */
+
+	.header ul {
+		text-align: center;
+		font-size: 24px;
+		font-family: Futura-Bold;
+		padding-top: 0px;
+	}
+
+	.header ul li a{
+		padding: 10px;
+	}
+
+
+  /* Home Page */
+  #homeHero .hero-image {
+    height:50vh;
+		margin-top: 0px;
+  }
+
+	#homeHero {
+		width:100%;
+		padding-top: 50px;
+	}
+
+	#homeContent .content-image {
+	  background-position-x: -700px;
+		height: 500px;
+	}
+
+	#homeContent .content-text-mobile h1 {
+		font-size: 35px;
+	}
+
+	#homeContent .content-text-mobile p {
+		font-size: 15px;
+	}
+
+/* About */
+
+	#aboutTop {
+		padding-top: 100px;
+	}
+
+	#aboutTop p {
+		font-size: 16px;
+	}
+
+	#aboutTop img {
+		padding: 10px 0 25px 0;
+	}
+
+
+	/* Footer */
+
+	.footer-wrapper {
+		height: 60vh;
+	}
+}

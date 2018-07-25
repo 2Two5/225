@@ -114,6 +114,7 @@ body {
 
 .header .menu-btn:checked ~ .menu {
   max-height: 240px;
+	padding-bottom: 25px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -160,7 +161,7 @@ body {
 }
 
 #homeHero .hero-image {
-  background-image: url(images/home/2two5_header-image.jpg);
+  background-image: url(images/home/homepage-header_GOLD.png);
   height: 103vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -173,12 +174,10 @@ body {
   position: relative;
 }
 
-#homeContent hr {
+#homeContent .gold-bar {
   width:100%;
   height: 20px;
   background-color: #e3b55b;
-  position: relative;
-  top: 16px;
 }
 
 #homeContent .content-image {
@@ -237,12 +236,10 @@ body {
 	padding-top: 20px;
 }
 
-#aboutContent hr {
+#aboutContent .gold-bar {
   width:100%;
   height: 20px;
   background-color: #e3b55b;
-  position: relative;
-  top: 16px;
 }
 
 #aboutContent .about-content-bg {
@@ -255,14 +252,17 @@ body {
 	text-align: center;
 }
 
-#aboutContent .about-content-text {
-	padding-top: 50px;
-	margin-bottom: -100px;
+#aboutContent .content-row {
+	margin-bottom: -225px;
 }
 
-#aboutContent .about-content-text h2 {
+#aboutContent .about-content-text {
+	padding-top: 50px;
+}
+
+#aboutContent .about-content-text h1 {
 	font-family: Futura-Bold;
-	font-size: 50px;
+	font-size: 60px;
 }
 
 #aboutContent .about-content-text p {
@@ -275,8 +275,12 @@ body {
 	width: 100%;
 }
 
+#aboutContent .icon-row {
+	margin-top: -175px;
+}
+
 #aboutContent .icons-image {
- width: 65%;
+ width: 75%;
  padding-bottom: 50px;
 }
 
@@ -365,6 +369,24 @@ body {
 		padding-top: 50px;
 		padding-left: 5px;
 	}
+
+	#aboutContent .content-row {
+		margin-bottom: -175px;
+	}
+
+	#aboutContent .about-content-text h1 {
+		font-size: 50px;
+	}
+
+	#aboutContent .about-content-text p {
+		font-size: 16px;
+		padding: 0 15px;
+	}
+
+	#aboutContent .icon-row {
+		margin-top: -150px;
+	}
+
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -375,19 +397,20 @@ body {
 
 	.header ul {
 		text-align: center;
-		font-size: 24px;
+		font-size: 20px;
 		font-family: Futura-Bold;
 		padding-top: 0px;
 	}
 
 	.header ul li a{
 		padding: 10px;
+		color: #e3b55b;
 	}
 
 
   /* Home Page */
   #homeHero .hero-image {
-    height:50vh;
+    height:300px;
 		margin-top: 0px;
   }
 
@@ -397,8 +420,8 @@ body {
 	}
 
 	#homeContent .content-image {
-		background-image: url(images/home/2two5_woman_2_expanded.jpg);
-	  background-position-x: 0px;
+		/* background-image: url(images/home/2two5_woman_2_expanded.jpg); */
+	  background-position-x: -725px;
 		height: 500px;
 	}
 
@@ -424,10 +447,78 @@ body {
 		padding: 0 0 25px 0;
 	}
 
+	#aboutContent .content-row {
+		margin-bottom: -50px;
+	}
+
+	#aboutContent .about-content-text {
+		padding-top: 25px;
+	}
+
+	#aboutContent .about-content-text h1 {
+		font-size: 40px;
+		padding-bottom: 5px;
+	}
+
+	#aboutContent .about-content-text p {
+		font-size: 16px;
+		padding: 0 20px;
+	}
+
+	#aboutContent .icon-row {
+		margin-top: -25px;
+		padding-bottom: 50px;
+	}
+
+	#aboutContent .icons-image {
+	 width: 60%;
+	}
+
+	#aboutContent .icon-mobile {
+		width: 50%;
+	}
+
 
 	/* Footer */
 
 	.footer-wrapper {
 		height: 40vh;
 	}
+}
+
+@media (max-width: 576px) {
+
+	/* Home */
+
+	#homeHero {
+		margin: 0;
+	}
+
+	#homeHero .hero-image {
+    height:200px;
+		margin-bottom: 25px;
+  }
+
+	#homeContent .content-image {
+		background-image: url(images/home/2two5_woman_3B.jpg);
+	  background-position-x: 0px;
+		background-position-y: 55%;
+		height: 400px;
+	}
+
+	#homeContent .content-text-mobile h1 {
+		font-size: 25px;
+	}
+
+	#homeContent .content-text-mobile p {
+		font-size: 14px;
+	}
+
+	/* About */
+
+	#aboutTop h1 {
+		font-size: 40px;
+		padding: 0 10px;
+	}
+
 }

@@ -16,7 +16,7 @@
     <div class="row content-row">
       <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 about-content-text">
         <h1>THE TEAM</h1>
-        <p>We hand-picked our team from thje most successful branding and media buying agnecies of the digital era. We add our experience working for brands like CocaCola, The New York Jets, and Mercedez Benz to the decades of medical aesthetic knowledge within Venus Concept.</p>
+        <p>We hand-picked our team from the most successful branding and media buying agnecies of the digital era. We add our experience working for brands like CocaCola, The New York Jets, and Mercedez Benz to the decades of medical aesthetic knowledge within Venus Concept.</p>
       </div>
     </div>
     <div class="row">

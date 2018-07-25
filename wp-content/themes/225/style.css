@@ -45,7 +45,8 @@ body {
 
 .header ul {
   margin: 0;
-  padding-top: 25px;
+  padding-top: 15px;
+	padding-bottom: 15px;
 	padding-right: 25px;
   list-style: none;
   overflow: hidden;
@@ -162,12 +163,11 @@ body {
 
 #homeHero .hero-image {
   background-image: url(images/home/homepage-header_GOLD.png);
-  height: 103vh;
+  height: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-	margin-top: -75px;
 }
 
 #homeContent {
@@ -213,7 +213,7 @@ body {
 
 #aboutTop {
 	padding-top: 100px;
-	height: 103vh;
+	height: auto;
 }
 
 #aboutTop h1 {
@@ -335,8 +335,7 @@ body {
   /* Home Page */
 
   #homeHero .hero-image {
-    height:75vh;
-		margin-top: -20px;
+    height:600px;
   }
 
 	#homeContent .content-image {
@@ -400,6 +399,7 @@ body {
 		font-size: 20px;
 		font-family: Futura-Bold;
 		padding-top: 0px;
+		padding-bottom: 0px;
 	}
 
 	.header ul li a{

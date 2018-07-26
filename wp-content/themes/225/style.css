@@ -33,10 +33,21 @@ body {
 /* header */
 
 .header {
+	padding: 10px 0;
   background-color: #000000;
   position: fixed;
   width: 100%;
   z-index: 3;
+}
+
+.header .menu-logo {
+	width: 150px;
+	padding: 15px 0;
+	margin-left: 50px;
+}
+
+.home .header .menu-logo {
+	opacity: 0;
 }
 
 .header a {
@@ -73,7 +84,7 @@ body {
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
-  float: left;
+  float: right;
   padding: 28px 20px;
   position: relative;
   user-select: none;
@@ -162,7 +173,7 @@ body {
 }
 
 #homeHero .hero-image {
-  background-image: url(images/home/homepage-header_GOLD.png);
+  background-image: url(images/home/homepage-header_2_gold_TAGLINE.png);
   height: 700px;
   background-position: center;
   background-repeat: no-repeat;
@@ -212,7 +223,7 @@ body {
 /* About */
 
 #aboutTop {
-	padding-top: 100px;
+	padding: 125px 0px;
 	height: auto;
 }
 
@@ -394,6 +405,10 @@ body {
 
   /* Header */
 
+	.header .menu-logo {
+		width: 100px;
+	}
+
 	.header ul {
 		text-align: center;
 		font-size: 20px;
@@ -410,7 +425,7 @@ body {
 
   /* Home Page */
   #homeHero .hero-image {
-    height:300px;
+    height:400px;
 		margin-top: 0px;
   }
 
@@ -493,11 +508,6 @@ body {
 	#homeHero {
 		margin: 0;
 	}
-
-	#homeHero .hero-image {
-    height:200px;
-		margin-bottom: 25px;
-  }
 
 	#homeContent .content-image {
 		background-image: url(images/home/2two5_woman_3B.jpg);

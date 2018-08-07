@@ -25,17 +25,8 @@
       </div>
     </div>
     <div class="row icon-row">
-      <div class="col-md-12 d-none d-md-block">
+      <div class="col-md-12">
         <img class="icons-image" src="<?php echo get_bloginfo( 'template_directory' );?>/images/about/About_Icons_TEXT.png" alt="">
-      </div>
-      <div class="col-4 col-sm-4 d-sm-block d-md-none">
-        <img class="icon-mobile" src="<?php echo get_bloginfo( 'template_directory' );?>/images/about/ad_agency_logo.png" alt="">
-      </div>
-      <div class="col-4 col-sm-4 d-sm-block d-md-none">
-        <img class="icon-mobile" src="<?php echo get_bloginfo( 'template_directory' );?>/images/about/web_design_logo.png" alt="">
-      </div>
-      <div class="col-4 col-sm-4 d-sm-block d-md-none">
-        <img class="icon-mobile" src="<?php echo get_bloginfo( 'template_directory' );?>/images/about/health_design_logo.png" alt="">
       </div>
     </div>
   </div>

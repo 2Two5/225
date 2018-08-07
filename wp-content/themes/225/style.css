@@ -223,7 +223,7 @@ body {
 /* About */
 
 #aboutTop {
-	padding: 125px 0px;
+	padding: 175px 0px 125px 0px;
 	height: auto;
 }
 
@@ -486,7 +486,7 @@ body {
 	}
 
 	#aboutContent .icons-image {
-	 width: 60%;
+	 width: 100%;
 	}
 
 	#aboutContent .icon-mobile {

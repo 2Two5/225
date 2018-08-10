@@ -1,7 +1,5 @@
 <div class="footer-wrapper" id="footer">
-  <div class="row">
-      <div class="col-md-10 offset-md-1">
-        <div class="row justify-content-md-center">
+        <div class="row">
           <div class="col-md-4 d-none d-md-block">
             <h3>Customer Assistance</h3>
               <ul class="assistance">
@@ -29,8 +27,6 @@
             </ul>
           </div>
         </div>
-      </div>
-  </div>
 </div>
 
 

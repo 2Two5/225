@@ -28,6 +28,15 @@ body {
 	margin: 0;
 }
 
+.gradient-section {
+	background-image: url(images/Gradient-Background_3.png);
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 
 
 /* header */
@@ -165,66 +174,46 @@ body {
   }
 }
 
-
-/* Home */
-
-#homeHero {
-  position: relative;
-}
-
-#homeHero .hero-image {
-  background-image: url(images/home/homepage-header_2_gold_TAGLINE.png);
-  height: 700px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-#homeContent {
-  position: relative;
-}
-
-#homeContent .gold-bar {
-  width:100%;
-  height: 20px;
-  background-color: #e3b55b;
-}
-
-#homeContent .content-image {
-  background-image: url(images/home/2two5_website_Home-Page_cropped.jpg);
-  height: 600px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-#homeContent .content-text {
-  position:relative;
-  top: 50px;
-  left: 15px;
-  padding: 20px;
-  color: #000000;
-}
-
-#homeContent .content-text h1 {
-  font-family: Futura-Bold;
-	font-size: 50px;
-  line-height: .9em;
-}
-
-#homeContent .content-text p {
-	padding-top: 5px;
-  padding-right: 45px;
-  line-height: 2em;
-}
-
 /* About */
 
+#aboutHero {
+	text-align: center;
+}
+
+#aboutHero .hero {
+	width: 600px;
+	padding: 120px 0px 80px 0px;
+}
+
+#aboutHero .gold-bar {
+	width:100%;
+  height: 20px;
+}
+
+#aboutOpp {
+	background-image: url(images/Gradient-Background_3.png);
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	text-align: center;
+	padding: 100px 0px 100px 0px;
+}
+
+#aboutOpp h1 {
+	font-family: Futura-Bold;
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+
+#aboutOpp p {
+	font-size: 18px;
+}
+
 #aboutTop {
-	padding: 175px 0px 125px 0px;
 	height: auto;
+	padding: 100px 0px;
 }
 
 #aboutTop h1 {
@@ -292,6 +281,174 @@ body {
 #aboutContent .icons-image {
  width: 75%;
  padding-bottom: 50px;
+}
+
+/* Services */
+
+#servicesTop {
+	padding-top: 150px;
+	text-align: center;
+}
+
+#servicesTop h1 {
+	color: #e3b55b;
+	font-family: Futura-Bold;
+	font-size: 50px;
+	line-height: .9em;
+}
+
+#servicesTop .icon-wrapper {
+	margin: 50px 0px;
+}
+
+#servicesTop .icon-wrapper img {
+	width: 50%;
+	padding-bottom: 25px;
+	cursor: pointer;
+}
+
+.icon-div:hover .white,
+.icon-div .gold {
+    display: none;
+}
+.icon-div:hover .gold {
+    display: inline;
+}
+
+#servicesTop .icon-wrapper h5 {
+	color: #ffffff;
+	font-family: HelveticaNeue;
+	font-size: 16px;
+}
+
+#servicesTop .bottom-icon-row {
+	margin-top: 25px;
+}
+
+#servicesTop .gold-bar {
+  width:100%;
+  height: 20px;
+  background-color: #e3b55b;
+}
+
+/* Contact */
+
+#contactTop {
+	padding-top: 150px;
+	text-align: center;
+}
+
+#contactTop h1 {
+	color: #e3b55b;
+	font-family: Futura-Bold;
+	font-size: 50px;
+	padding-bottom: 100px;
+}
+
+#contactTop .gold-bar {
+  width:100%;
+  height: 20px;
+  background-color: #e3b55b;
+}
+
+#contactContent {
+	background-image: url(images/Gradient-Background_3.png);
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	text-align: center;
+	padding: 50px 0px;
+}
+
+#contactContent h2 {
+	font-family: Futura-Bold;
+	padding-bottom: 25px;
+	font-size: 45px;
+	letter-spacing: 5px;
+}
+
+
+#contactContent img {
+	width: 120px;
+}
+
+#contactContent a {
+	color: #000000;
+	text-decoration: none;
+	display: block;
+	padding-top: 15px;
+	font-family: HelveticaNeue;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+#contactContent .phone img {
+	margin-left: 20%;
+}
+
+#contactContent .phone a {
+	margin-left: 20%;
+}
+
+#contactContent .email img {
+	margin-right: 20%;
+}
+
+#contactContent .email a {
+	margin-right: 20%;
+}
+
+/* Hiring */
+
+#hiringTop {
+	padding-top: 125px;
+	text-align: center;
+}
+
+#hiringTop h1 {
+	color: #e3b55b;
+	font-family: Futura-Bold;
+	font-size: 50px;
+	padding-bottom: 75px;
+}
+
+#hiringTop .gold-bar {
+  width:100%;
+  height: 20px;
+  background-color: #e3b55b;
+}
+
+#hiringText {
+	background-image: url(images/Gradient-Background_3.png);
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	text-align: center;
+	padding: 100px 0px 100px 0px;
+}
+
+#hiringText h1 {
+	font-family: Futura-Bold;
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+
+#hiringText p {
+	font-size: 18px;
+}
+
+#hiringIcons {
+	background-color: #000000;
+	text-align: center;
+}
+
+#hiringIcons img {
+	width: 120px;
 }
 
 /* Footer */
@@ -374,6 +531,10 @@ body {
 		font-size: 16px;
 	}
 
+	#aboutTop img {
+		margin-top: 25%;
+	}
+
 	#aboutContent .content-row {
 		margin-bottom: -175px;
 	}
@@ -446,12 +607,29 @@ body {
 
 /* About */
 
+	#aboutHero .hero {
+		width: 400px;
+		padding: 120px 0px 80px 0px;
+	}
+
+	#aboutOpp {
+		padding: 100px 0px 100px 0px;
+	}
+
+	#aboutOpp h1 {
+		font-size: 50px;
+	}
+
+	#aboutOpp p {
+		font-size: 16px;
+	}
+
 	#aboutTop p {
 		font-size: 16px;
 	}
 
 	#aboutTop img {
-		width: 90%;
+		margin-top: 0%;
 	}
 
 	#aboutContent .content-row {
@@ -483,6 +661,38 @@ body {
 
 	#aboutContent .icon-mobile {
 		width: 50%;
+	}
+
+/* Services */
+
+	#servicesTop h1 {
+		font-size: 40px;
+	}
+
+	#servicesTop .icon-wrapper h5 {
+		font-size: 12px;
+	}
+
+	#servicesTop .icon-wrapper img {
+		width: 75%;
+	}
+
+	/* Contact */
+
+	#contactContent .phone img {
+		margin-left: 0%;
+	}
+
+	#contactContent .phone a {
+		margin-left: 0%;
+	}
+
+	#contactContent .email img {
+		margin-right: 0%;
+	}
+
+	#contactContent .email a {
+		margin-right: 0%;
 	}
 
 
@@ -521,6 +731,16 @@ body {
 	#aboutTop h1 {
 		font-size: 40px;
 		padding: 0 10px;
+	}
+
+	/* Contact */
+
+	#contactContent .phone {
+		text-align: center;
+	}
+
+	#contactContent .email {
+		text-align: center;
 	}
 
 }

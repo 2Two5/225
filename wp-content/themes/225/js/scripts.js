@@ -32,4 +32,167 @@ $(document).ready(function() {
             $('.home .header .menu-logo').css('opacity', '0');
         }
     });
+
+    $( ".icon-div" ).mouseover(function(){
+      $("p",this).css('color', '#e3b55b')
+    });
+    $( ".icon-div" ).mouseout(function(){
+      $("p",this).css('color', '#ffffff')
+    });
+
+    $( "#web-click" ).click(function() {
+      if ($("#serviceContent div").is(':visible')) {
+        $("#serviceContent .collapsible").slideUp( 500, function() {
+          // Animation complete.
+        });
+        $( "#webdev-inner" ).delay(500).slideDown( 500, function() {
+          // Animation complete.
+        });
+      } else {
+        $( "#webdev-inner" ).slideDown( 500, function() {
+          // Animation complete.
+        });
+      }
+    });
+
+    $( "#seo-click" ).click(function() {
+      if ($("#serviceContent div").is(':visible')) {
+        $("#serviceContent .collapsible").slideUp( 500, function() {
+          // Animation complete.
+        });
+        $( "#seo-inner" ).delay(500).slideDown( 500, function() {
+          // Animation complete.
+        });
+      } else {
+        $( "#seo-inner" ).slideDown( 500, function() {
+          // Animation complete.
+        });
+      }
+    });
+
+    $( "#analytics-click" ).click(function() {
+      if ($("#serviceContent div").is(':visible')) {
+        $("#serviceContent .collapsible").slideUp( 500, function() {
+          // Animation complete.
+        });
+        $( "#analytics-inner" ).delay(500).slideDown( 500, function() {
+          // Animation complete.
+        });
+      } else {
+        $( "#analytics-inner" ).slideDown( 500, function() {
+          // Animation complete.
+        });
+      }
+    });
+
+    $( "#cad-click" ).click(function() {
+      if ($("#serviceContent div").is(':visible')) {
+        $("#serviceContent .collapsible").slideUp( 500, function() {
+          // Animation complete.
+        });
+        $( "#cad-inner" ).delay(500).slideDown( 500, function() {
+          // Animation complete.
+        });
+      } else {
+        $( "#cad-inner" ).slideDown( 500, function() {
+          // Animation complete.
+        });
+      }
+    });
+
+    $( "#directory-click" ).click(function() {
+      if ($("#serviceContent div").is(':visible')) {
+        $("#serviceContent .collapsible").slideUp( 500, function() {
+          // Animation complete.
+        });
+        $( "#directory-inner" ).delay(500).slideDown( 500, function() {
+          // Animation complete.
+        });
+      } else {
+        $( "#directory-inner" ).slideDown( 500, function() {
+          // Animation complete.
+        });
+      }
+    });
+
+    $( "#media-click" ).click(function() {
+      if ($("#serviceContent div").is(':visible')) {
+        $("#serviceContent .collapsible").slideUp( 500, function() {
+          // Animation complete.
+        });
+        $( "#media-inner" ).delay(500).slideDown( 500, function() {
+          // Animation complete.
+        });
+      } else {
+        $( "#media-inner" ).slideDown( 500, function() {
+          // Animation complete.
+        });
+      }
+    });
+
+    $( "#partner-click" ).click(function() {
+      if ($("#serviceContent div").is(':visible')) {
+        $("#serviceContent .collapsible").slideUp( 500, function() {
+          // Animation complete.
+        });
+        $( "#partner-inner" ).delay(500).slideDown( 500, function() {
+          // Animation complete.
+        });
+      } else {
+        $( "#partner-inner" ).slideDown( 500, function() {
+          // Animation complete.
+        });
+      }
+    });
+
+    $( "#repman-click" ).click(function() {
+      if ($("#serviceContent div").is(':visible')) {
+        $("#serviceContent .collapsible").slideUp( 500, function() {
+          // Animation complete.
+        });
+        $( "#repman-inner" ).delay(500).slideDown( 500, function() {
+          // Animation complete.
+        });
+      } else {
+        $( "#repman-inner" ).slideDown( 500, function() {
+          // Animation complete.
+        });
+      }
+    });
+
+    $( "#scheduler-click" ).click(function() {
+      if ($("#serviceContent div").is(':visible')) {
+        $("#serviceContent .collapsible").slideUp( 500, function() {
+          // Animation complete.
+        });
+        $( "#scheduler-inner" ).delay(500).slideDown( 500, function() {
+          // Animation complete.
+        });
+      } else {
+        $( "#scheduler-inner" ).slideDown( 500, function() {
+          // Animation complete.
+        });
+      }
+    });
+
+    $('.toggle').click(function(e) {
+      	e.preventDefault();
+        $('.circle-plus').toggleClass('opened');
+        var $this = $(this);
+
+        $this.toggleClass('closed');
+
+        if ($this.next().hasClass('show')) {
+            $this.next().removeClass('show');
+            $this.next().slideUp(350);
+        } else {
+            $this.parent().parent().find('li .inner').removeClass('show');
+            $this.parent().parent().find('li .inner').slideUp(350);
+            $this.next().toggleClass('show');
+            $this.next().slideToggle(350);
+        }
+    });
+
+
+
 });

@@ -20,14 +20,6 @@ Description: 225 Site
 	src: url(fonts/HelveticaNeue.ttc);
 }
 
-/* Body  */
-
-body {
-  font-family: HelveticaNeue;
-  background-color: #000000;
-	margin: 0;
-}
-
 .gradient-section {
 	background-image: url(images/Gradient-Background_3.png);
   height: auto;
@@ -37,7 +29,26 @@ body {
   position: relative;
 }
 
+.icon-div:hover .white,
+.icon-div .gold {
+    display: none;
+}
 
+.icon-div:hover .gold {
+    display: inline;
+}
+
+.icon-div:hover p {
+	color: #e3b55b;
+}
+
+/* Body  */
+
+body {
+  font-family: HelveticaNeue;
+  background-color: #000000;
+	margin: 0;
+}
 
 /* header */
 
@@ -77,6 +88,11 @@ body {
   display: block;
   padding: 20px 20px;
   text-decoration: none;
+	text-transform: uppercase;
+}
+
+.header li a:hover {
+	color: #e3b55b;
 }
 
 
@@ -302,17 +318,9 @@ body {
 }
 
 #servicesTop .icon-wrapper img {
-	width: 50%;
+	width: 40%;
 	padding-bottom: 25px;
 	cursor: pointer;
-}
-
-.icon-div:hover .white,
-.icon-div .gold {
-    display: none;
-}
-.icon-div:hover .gold {
-    display: inline;
 }
 
 #servicesTop .icon-wrapper h5 {
@@ -330,6 +338,156 @@ body {
   height: 20px;
   background-color: #e3b55b;
 }
+
+#serviceContent {
+	background-image: url(images/Gradient-Background_3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#serviceContent .collapsible {
+	height: auto;
+	display: none;
+}
+/* Services - Individual */
+
+	/* Before - After */
+
+	.before-after {
+		text-align: center;
+		padding: 50px 0px;
+	}
+
+	.before-after h1 {
+		font-family: Futura-Bold;
+		font-size: 60px;
+	}
+
+	.before-after p {
+		font-size: 18px;
+		padding: 25px 5px;
+	}
+
+	.before-after img {
+		margin-top: 25px;
+		width: 400px;
+	}
+
+	.before-after .before-img {
+		margin-right: 25px;
+	}
+
+	.before-after .after-img {
+		margin-left: 25px;
+	}
+
+	/* Singles */
+
+	.single {
+		text-align: center;
+		padding: 50px 0px;
+	}
+
+	.single h1 {
+		font-family: Futura-Bold;
+		font-size: 60px;
+	}
+
+	.single p {
+		font-size: 18px;
+		padding: 25px 5px;
+	}
+
+	.single img {
+		margin-top: 25px;
+		width: 400px;
+	}
+
+	/* accordion */
+
+	.accordion-service {
+		padding: 0px;
+		text-align: center;
+	}
+
+	.accordion-service  h1 {
+		font-family: Futura-Bold;
+		font-size: 60px;
+		margin-top: 25px;
+	}
+
+	.accordion-service  p {
+		font-size: 18px;
+		padding: 25px 5px;
+	}
+
+	.accordion-service ul {
+	  list-style: none;
+	  padding: 0;
+		margin-bottom: 0px;
+	  }
+
+	.accordion-service ul li {
+		border-bottom: 2px solid #e3b55b;
+	}
+
+	.accordion-service ul .inner {
+		padding: 25px 0px;
+    overflow: hidden;
+    display: none;
+		}
+
+  .accordion-service ul .inner li {
+    margin: 0.5em 0;
+	}
+
+  .accordion-service ul li a.toggle {
+    width: 100%;
+    display: block;
+		background-color: #000000;
+		padding: 40px 0;
+    text-align: center;
+		color: #ffffff;
+		text-transform: uppercase;
+		text-decoration: none;
+		letter-spacing: 2px;
+	}
+
+	.accordion-service ul li a.toggle:hover {
+		color: #e3b55b;
+	}
+
+	.accordion-service .before-wrapper {
+		display: inline-block;
+	}
+
+	.accordion-service .after-wrapper {
+		display: inline-block;
+	}
+
+	.accordion a:before {
+	    float: right !important;
+	    font-family: FontAwesome;
+	    content:"\f068";
+	    padding-right: 5px;
+			color:#e3b55b;
+	}
+	.accordion a.closed:before {
+	    float: right !important;
+	    content:"\f067";
+			color:#e3b55b;
+	}
+	.accordion a:hover,
+	.accordion a:active,
+	.accordion a:focus  {
+	    text-decoration:none;
+	}
+
+
+
+
 
 /* Contact */
 
@@ -445,10 +603,27 @@ body {
 #hiringIcons {
 	background-color: #000000;
 	text-align: center;
+	padding-top: 50px;
 }
 
-#hiringIcons img {
+#hiringIcons .icon-div {
+	padding-bottom: 25px;
+}
+
+#hiringIcons .icon-div img {
 	width: 120px;
+}
+
+#hiringIcons .icon-div p {
+	color: #ffffff;
+	font-size: 18px;
+	padding-top: 10px;
+	letter-spacing: 2px;
+}
+
+#hiringIcons .gold-bar {
+  width:100%;
+  height: 20px;
 }
 
 /* Footer */

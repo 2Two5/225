@@ -7,7 +7,14 @@
   </div>
   <ul class="accordion">
     <li>
-      <a class="toggle closed" href="javascript:void(0);">Increase reviews with a free in-practice laptop used exclusively for reviews</a>
+      <a class="toggle" href="javascript:void(0);">Increase reviews with a free in-practice laptop used exclusively for reviews
+        <div class="circle-plus closed">
+         <div class="circle">
+           <div class="horizontal"></div>
+           <div class="vertical"></div>
+         </div>
+        </div>
+      </a>
       <div class="inner">
         <p>ReviewHub™ is designed and optimized to be the easiest interface for patients of all ages.</p>
         <div class="before-wrapper">
@@ -21,25 +28,53 @@
       </div>
     </li>
     <li>
-      <a class="toggle closed" href="javascript:void(0);">Recent and 100% verified reviews</a>
+      <a class="toggle" href="javascript:void(0);">Recent and 100% verified reviews
+        <div class="circle-plus closed">
+         <div class="circle">
+           <div class="horizontal"></div>
+           <div class="vertical"></div>
+         </div>
+        </div>
+      </a>
       <div class="inner">
         <p>Most positive reviews happen when patients are still in the office. The ReviewHub™ increases the recency of the reviews. Plus, all evaluations that come through the ReviewHub™ are 100% verified through our filters and approved by a moderation team.</p>
       </div>
     </li>
     <li>
-      <a class="toggle closed" href="javascript:void(0);">Web-wide distribution</a>
+      <a class="toggle" href="javascript:void(0);">Web-wide distribution
+        <div class="circle-plus closed">
+         <div class="circle">
+           <div class="horizontal"></div>
+           <div class="vertical"></div>
+         </div>
+        </div>
+      </a>
       <div class="inner">
         <p>Automatically publish all reviews on the most popular consumer health sites like: Healthgrades, Vitals, and Wellness - a network of more than 70 million patients.</p>
       </div>
     </li>
     <li>
-      <a class="toggle closed" href="javascript:void(0);">Push reviews to social media</a>
+      <a class="toggle" href="javascript:void(0);">Push reviews to social media
+        <div class="circle-plus closed">
+         <div class="circle">
+           <div class="horizontal"></div>
+           <div class="vertical"></div>
+         </div>
+        </div>
+      </a>
       <div class="inner">
         <p>Automatically, publish verified and approved reviews directly on your website and social media channels.  This keeps your content fresh, relevant, and search optimized.</p>
       </div>
     </li>
     <li>
-      <a class="toggle closed" href="javascript:void(0);">Benefits</a>
+      <a class="toggle" href="javascript:void(0);">Benefits
+        <div class="circle-plus closed">
+         <div class="circle">
+           <div class="horizontal"></div>
+           <div class="vertical"></div>
+         </div>
+        </div>
+      </a>
       <ul class="inner">
         <li>Option 1</li>
         <li>Option 2</li>

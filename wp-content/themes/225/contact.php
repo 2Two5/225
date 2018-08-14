@@ -10,18 +10,29 @@
 <div class="row" id="contactContent">
   <div class="col-12">
     <div class="row">
-      <div class="col-12">
-        <h2>WORK WITH US</h2>
+      <div class="col-sm-4 offset-sm-2">
+        <img class="main-icon" src="<?php echo get_bloginfo( 'template_directory' );?>/images/contact/New-business-icon.png" alt="">
+        <h2>NEW<br>BUSINESS</h2>
+        <div class="email">
+          <img src="<?php echo get_bloginfo( 'template_directory' );?>/images/contact/email-icon.png" alt="">
+          <a href="email:">sales@2two5.com</a>
+        </div>
+        <div class="phone">
+          <img src="<?php echo get_bloginfo( 'template_directory' );?>/images/contact/phone-icon.png" alt="">
+          <a href="tel:">+1-000-000-0000</a>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-3 offset-sm-3 phone">
-        <img src="<?php echo get_bloginfo( 'template_directory' );?>/images/contact/phone-icon.png" alt="">
-        <a href="tel:">1-000-000-0000</a>
-      </div>
-      <div class="col-sm-3 email">
-        <img src="<?php echo get_bloginfo( 'template_directory' );?>/images/contact/email-icon.png" alt="">
-        <a href="email:">sales@2two5.com</a>
+      <div class="col-sm-4">
+        <img class="main-icon" src="<?php echo get_bloginfo( 'template_directory' );?>/images/contact/customer-service-icon.png" alt="">
+        <h2>CUSTOMER<br>SERVICE</h2>
+        <div class="email">
+          <img src="<?php echo get_bloginfo( 'template_directory' );?>/images/contact/email-icon.png" alt="">
+          <a href="email:">sales@2two5.com</a>
+        </div>
+        <div class="phone">
+          <img src="<?php echo get_bloginfo( 'template_directory' );?>/images/contact/phone-icon.png" alt="">
+          <a href="tel:">+1-000-000-0000</a>
+        </div>
       </div>
     </div>
   </div>

@@ -177,7 +177,9 @@ $(document).ready(function() {
 
     $('.toggle').click(function(e) {
       	e.preventDefault();
-        $('.circle-plus').toggleClass('opened');
+
+        $('li:hover .circle-plus').toggleClass('opened');
+
         var $this = $(this);
 
         $this.toggleClass('closed');

@@ -10,8 +10,8 @@
 <div class="gradient-section">
   <div class="row" id="hiringText">
     <div class="col-12 col-sm-8 offset-sm-2">
-      <h1>HIRING</h1>
-      <p>We’re always hiring people that fit our culture, have skills, and are persistent. Drop off portfolios, resumes, or submit online. Don’t see the position you are looking for below, apply any way or LinkedIn stalk one of us for an informational interview. We respect the hustle.</p>
+      <h1>THE CULTURE OF HUSTLE</h1>
+      <p>We’re always hiring people that fit our culture, have skills, and are persistent. Drop off portfolios, resumes, or submit online. Don’t see the position you are looking for below, apply anyway or LinkedIn stalk one of us for an informational interview. We respect the hustle.</p>
     </div>
   </div>
   <div class="row" id="hiringIcons">

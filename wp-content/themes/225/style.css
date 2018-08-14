@@ -63,7 +63,7 @@ body {
 .header .menu-logo {
 	width: 150px;
 	padding: 15px 0;
-	margin-left: 50px;
+	margin-left: 15px;
 }
 
 .home .header .menu-logo {
@@ -190,6 +190,41 @@ body {
   }
 }
 
+#homeContent .gold-bar {
+  width:100%;
+  height: 20px;
+  background-color: #e3b55b;
+}
+
+#homeContent .content-image {
+  background-image: url(images/home/2two5_website_Home-Page_cropped.jpg);
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#homeContent .content-text {
+  position:relative;
+  top: 50px;
+  margin-left: 15px;
+  color: #000000;
+}
+
+#homeContent .content-text h1 {
+  font-family: Futura-Bold;
+	font-size: 50px;
+  line-height: .9em;
+}
+
+#homeContent .content-text p {
+	padding-top: 5px;
+  padding-right: 45px;
+  line-height: 2em;
+}
+
+
 /* About */
 
 #aboutHero {
@@ -236,6 +271,7 @@ body {
 	font-family: Futura-Bold;
 	font-size: 60px;
 	color: #e3b55b;
+	margin-left: 15px;
   line-height: .9em;
 }
 
@@ -243,7 +279,7 @@ body {
 	color: #ffffff;
 	font-size: 18px;
 	line-height: 2em;
-	padding: 20px 10px;
+	padding: 20px 15px;
 }
 
 #aboutTop img {
@@ -327,6 +363,10 @@ body {
 	color: #ffffff;
 	font-family: HelveticaNeue;
 	font-size: 16px;
+}
+
+#servicesTop .icon-div:hover h5 {
+	color: #e3b55b;
 }
 
 #servicesTop .bottom-icon-row {
@@ -467,26 +507,76 @@ body {
 		display: inline-block;
 	}
 
-	.accordion a:before {
-	    float: right !important;
-	    font-family: FontAwesome;
-	    content:"\f068";
-	    padding-right: 5px;
-			color:#e3b55b;
+	.closed .vertical {
+	  transition: all 0.5s ease-in-out;
+	  transform: rotate(-90deg);
 	}
-	.accordion a.closed:before {
-	    float: right !important;
-	    content:"\f067";
-			color:#e3b55b;
+	.closed .horizontal {
+	  transition: all 0.5s ease-in-out;
+	  transform: rotate(-90deg);
+	  opacity: 1;
 	}
-	.accordion a:hover,
-	.accordion a:active,
-	.accordion a:focus  {
-	    text-decoration:none;
+
+	.accordion li:hover .closed .vertical {
+		transition: all 0.5s ease-in-out;
+	  transform: rotate(90deg);
+	}
+	.accordion li:hover .closed .horizontal {
+		transition: all 0.5s ease-in-out;
+	  transform: rotate(90deg);
+	}
+
+	.opened {
+	  opacity: 1;
+	}
+	.opened .vertical {
+	  transition: all 0.5s ease-in-out;
+	  transform: rotate(90deg);
+	}
+	.opened .horizontal {
+	  transition: all 0.5s ease-in-out;
+	  transform: rotate(90deg);
+	  opacity: 0;
 	}
 
 
 
+	.circle-plus {
+		position: relative;
+	  left: 50%;
+	  margin-top: 20px;
+	  font-size: 1em;
+	}
+
+	.circle-plus .circle {
+	  position: relative;
+	  width: 35px;
+	  height: 34px;
+	  border-radius: 100%;
+	  border: solid 2px #e3b55b;
+	}
+
+	.circle-plus .circle .horizontal {
+	  position: absolute;
+		background-color: #e3b55b;
+    width: 15px;
+    height: 2px;
+    left: 50%;
+    margin-left: -7px;
+    top: 50%;
+    margin-top: -1px;
+	}
+
+	.circle-plus .circle .vertical {
+	  position: absolute;
+		background-color: #e3b55b;
+    width: 2px;
+    height: 15px;
+    left: 50%;
+    margin-left: -1.5px;
+    top: 50%;
+    margin-top: -8px;
+	}
 
 
 /* Contact */
@@ -524,39 +614,42 @@ body {
 	font-family: Futura-Bold;
 	padding-bottom: 25px;
 	font-size: 45px;
-	letter-spacing: 5px;
+	line-height: 1em;
 }
 
 
-#contactContent img {
-	width: 120px;
+#contactContent .main-icon {
+	width: 150px;
+	margin-bottom: 25px;
+}
+
+#contactContent .email {
+	margin-bottom: 20px;
+}
+
+#contactContent .phone {
+	margin-bottom: 20px;
+}
+
+#contactContent .email img {
+	width: 50px;
+	margin-right: 20px;
+}
+
+#contactContent .phone img {
+	width: 50px;
+	margin-right: 25px;
 }
 
 #contactContent a {
 	color: #000000;
 	text-decoration: none;
-	display: block;
 	padding-top: 15px;
 	font-family: HelveticaNeue;
 	font-weight: bold;
 	font-size: 20px;
 	letter-spacing: 2px;
-}
-
-#contactContent .phone img {
-	margin-left: 20%;
-}
-
-#contactContent .phone a {
-	margin-left: 20%;
-}
-
-#contactContent .email img {
-	margin-right: 20%;
-}
-
-#contactContent .email a {
-	margin-right: 20%;
+	display: inline;
 }
 
 /* Hiring */
@@ -587,7 +680,7 @@ body {
   background-size: cover;
   position: relative;
 	text-align: center;
-	padding: 100px 0px 100px 0px;
+	padding: 50px 0px;
 }
 
 #hiringText h1 {

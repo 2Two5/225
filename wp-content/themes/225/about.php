@@ -7,12 +7,6 @@
   </div>
   <img class="gold-bar" src="<?php echo get_bloginfo( 'template_directory' );?>/images/homepage-header_2_gold_bar.jpg" alt="">
 </div>
-<!-- <div class="row" id="aboutOpp">
-  <div class="col-12 col-sm-8 offset-sm-2">
-    <h1>THE OPPORTUNITY</h1>
-    <p>Advertising can make or break your business. So when many of our practices complained their ad agencies wasted their money, disrespected their time, and didn’t understand their business, we built an agency to exclusively serve your practice. Where every capability revolves around your needs generating patients and building your brand in the digital era.</p>
-  </div>
-</div> -->
 <div class="row" id="homeContent">
   <div class="col-sm-12 content-image">
     <div class="row">

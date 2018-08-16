@@ -179,7 +179,9 @@ $(document).ready(function() {
       	e.preventDefault();
         var $this = $(this);
 
-        $('.circle-plus').removeClass('opened');
+        console.log($('.circle-plus').hasClass('opened'));
+        console.log($('.circle-plus'));
+        $('.circle-plus').siblings().find('.opened').removeClass('opened');
         if ($($this).hasClass('opened')) {
           $($this).removeClass('opened');
         } else {

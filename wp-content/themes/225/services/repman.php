@@ -16,14 +16,18 @@
         </div>
       </a>
       <div class="inner">
-        <p>ReviewHub™ is designed and optimized to be the easiest interface for patients of all ages.</p>
+        <div class="row">
+          <div class="col-sm-8 offset-sm-2">
+            <p>ReviewHub™ is designed and optimized to be the easiest interface for patients of all ages.</p>
+          </div>
+        </div>
         <div class="before-wrapper">
           <h3>Before</h3>
-          <img style="width:300px;" src="<?php echo get_bloginfo( 'template_directory' );?>/images/services/review-hub-before.png" alt="">
+          <img src="<?php echo get_bloginfo( 'template_directory' );?>/images/services/review-hub-before.png" alt="">
         </div>
         <div class="after-wrapper">
           <h3>After</h3>
-          <img style="width:300px;" src="<?php echo get_bloginfo( 'template_directory' );?>/images/services/review-hub-after.png" alt="">
+          <img src="<?php echo get_bloginfo( 'template_directory' );?>/images/services/review-hub-after.png" alt="">
         </div>
       </div>
     </li>
@@ -36,8 +40,13 @@
          </div>
         </div>
       </a>
-      <div class="inner">
-        <p>Most positive reviews happen when patients are still in the office. The ReviewHub™ increases the recency of the reviews. Plus, all evaluations that come through the ReviewHub™ are 100% verified through our filters and approved by a moderation team.</p>
+      <div class="inner single-image">
+        <div class="row">
+          <div class="col-sm-8 offset-sm-2">
+            <p>Most positive reviews happen when patients are still in the office. The ReviewHub™ increases the recency of the reviews. Plus, all evaluations that come through the ReviewHub™ are 100% verified through our filters and approved by a moderation team.</p>
+          </div>
+        </div>
+        <img src="<?php echo get_bloginfo( 'template_directory' );?>/images/services/recent-reviews.png" alt="">
       </div>
     </li>
     <li>
@@ -49,8 +58,13 @@
          </div>
         </div>
       </a>
-      <div class="inner">
-        <p>Automatically publish all reviews on the most popular consumer health sites like: Healthgrades, Vitals, and Wellness - a network of more than 70 million patients.</p>
+      <div class="inner single-image">
+        <div class="row">
+          <div class="col-sm-8 offset-sm-2">
+            <p>Automatically publish all reviews on the most popular consumer health sites like: Healthgrades, Vitals, and Wellness - a network of more than 70 million patients.</p>
+          </div>
+        </div>
+        <img src="<?php echo get_bloginfo( 'template_directory' );?>/images/services/web-wide-distribution.png" alt="">
       </div>
     </li>
     <li>
@@ -62,8 +76,12 @@
          </div>
         </div>
       </a>
-      <div class="inner">
-        <p>Automatically, publish verified and approved reviews directly on your website and social media channels.  This keeps your content fresh, relevant, and search optimized.</p>
+      <div class="inner single-image">
+        <div class="row">
+          <div class="col-sm-8 offset-sm-2">
+            <p>Automatically, publish verified and approved reviews directly on your website and social media channels.  This keeps your content fresh, relevant, and search optimized.</p>
+          </div>
+        </div>
       </div>
     </li>
     <li>
@@ -75,11 +93,26 @@
          </div>
         </div>
       </a>
-      <ul class="inner">
-        <li>Option 1</li>
-        <li>Option 2</li>
-        <li>Option 3</li>
-      </ul>
+      <div class="inner">
+        <div class="row benefit-icons">
+          <div class="col-sm-3">
+            <img src="<?php echo get_bloginfo( 'template_directory' );?>/images/services/stay-fresh.png" alt="">
+            <p>80% of consumers don’t trust reviews older than 3 months.</p>
+          </div>
+          <div class="col-sm-3">
+            <img src="<?php echo get_bloginfo( 'template_directory' );?>/images/services/boost-seo.png" alt="">
+            <p>A steady stream of authentic, verified reviews are vital for good SEO.</p>
+          </div>
+          <div class="col-sm-3">
+            <img src="<?php echo get_bloginfo( 'template_directory' );?>/images/services/easy-monitoring.png" alt="">
+            <p>Read and respond to all reviews across the web from a single interface.</p>
+          </div>
+          <div class="col-sm-3">
+            <img src="<?php echo get_bloginfo( 'template_directory' );?>/images/services/multilingual.png" alt="">
+            <p>Review forms are available in English, Spanish, Portuguese and French.</p>
+          </div>
+        </div>
+      </div>
     </li>
   </ul>
 </div>

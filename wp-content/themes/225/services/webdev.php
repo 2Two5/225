@@ -7,9 +7,13 @@
   </div>
   <div class="row">
     <div class="col-sm-12">
-      <div class="img-wrapper">
-        <img class="before-img" src="<?php echo get_bloginfo( 'template_directory' );?>/images/services/bad-website.png" alt="">
-        <img class="after-img" src="<?php echo get_bloginfo( 'template_directory' );?>/images/services/good-website.png" alt="">
+      <div class="before-wrapper">
+        <h3>Before</h3>
+        <img src="<?php echo get_bloginfo( 'template_directory' );?>/images/services/bad-website.png" alt="">
+      </div>
+      <div class="after-wrapper">
+        <h3>After</h3>
+        <img src="<?php echo get_bloginfo( 'template_directory' );?>/images/services/good-website.png" alt="">
       </div>
     </div>
   </div>

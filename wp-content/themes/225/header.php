@@ -25,14 +25,14 @@
 <body <?php body_class(); ?> >
 
 	<header class="header">
-		<a href="/"><img class="menu-logo" src="<?php echo get_bloginfo( 'template_directory' );?>/images/nav_logo.png" alt=""></a>
+		<a href="http://146.66.103.28/~neograft/testtwo5.com/"><img class="menu-logo" src="<?php echo get_bloginfo( 'template_directory' );?>/images/nav_logo.png" alt=""></a>
 		<input class="menu-btn" type="checkbox" id="menu-btn" />
 	  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 	  <ul class="menu">
-	    <li><a href="/services" class="animsition-link">Services</a></li>
-	    <li><a href="/portfolio" class="animsition-link">Portfolio</a></li>
-	    <li><a href="/contact">Contact</a></li>
-	    <li><a href="/hiring">Hiring</a></li>
+	    <li><a href="http://146.66.103.28/~neograft/testtwo5.com/services" class="animsition-link">Services</a></li>
+	    <li><a href="http://146.66.103.28/~neograft/testtwo5.com/portfolio" class="animsition-link">Portfolio</a></li>
+	    <li><a href="http://146.66.103.28/~neograft/testtwo5.com/contact">Contact</a></li>
+	    <li><a href="http://146.66.103.28/~neograft/testtwo5.com/hiring">Hiring</a></li>
 	  </ul>
 </header>
 

@@ -177,10 +177,14 @@ $(document).ready(function() {
 
     $('.toggle').click(function(e) {
       	e.preventDefault();
-
-        $('li:hover .circle-plus').toggleClass('opened');
-
         var $this = $(this);
+
+        $('.circle-plus').removeClass('opened');
+        if ($($this).hasClass('opened')) {
+          $($this).removeClass('opened');
+        } else {
+          $($this).addClass('opened');
+        }
 
         $this.toggleClass('closed');
 

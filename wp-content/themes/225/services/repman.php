@@ -80,6 +80,7 @@
         <div class="row">
           <div class="col-sm-8 offset-sm-2">
             <p>Automatically, publish verified and approved reviews directly on your website and social media channels.  This keeps your content fresh, relevant, and search optimized.</p>
+            <img src="<?php echo get_bloginfo( 'template_directory' );?>/images/services/pushreviews.png" alt="">
           </div>
         </div>
       </div>

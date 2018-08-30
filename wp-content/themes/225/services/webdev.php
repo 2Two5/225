@@ -8,11 +8,11 @@
   <div class="row">
     <div class="col-sm-12">
       <div class="before-wrapper">
-        <h3>Before</h3>
+        <h3>BEFORE</h3>
         <img src="<?php echo get_bloginfo( 'template_directory' );?>/images/services/bad-website.png" alt="">
       </div>
       <div class="after-wrapper">
-        <h3>After</h3>
+        <h3>AFTER</h3>
         <img src="<?php echo get_bloginfo( 'template_directory' );?>/images/services/good-website.png" alt="">
       </div>
     </div>

@@ -2,7 +2,7 @@
 
 <?php get_header(); ?>
 <div class="row" id="aboutHero">
-  <div class="col-8 col-sm-8 offset-sm-2">
+  <div class="col-sm-12">
     <img class="hero" src="<?php echo get_bloginfo( 'template_directory' );?>/images/home/NEW-LOGO-TRANSPARENT.png" alt="">
   </div>
   <img class="gold-bar" src="<?php echo get_bloginfo( 'template_directory' );?>/images/homepage-header_2_gold_bar.jpg" alt="">
@@ -28,11 +28,13 @@
 <div class="row" id="aboutTop">
   <div class="col-sm-12">
     <div class="row">
-      <div class="col-md-4 col-sm-12">
-        <h1>OUR DATA ADVANTAGE</h1>
-        <p>Our relationship with Venus Concept gives our advertising the most accurate targeting in the industry. We leverage non-identifiable patient data to optimize digital ad campaigns in real time. Simply put, we are the best-equipped to deliver the right ads to the right audience at the right time for your practice.</p>
+      <div class="col-md-6 col-sm-12">
+        <div class="content-text">
+          <h1>OUR DATA ADVANTAGE</h1>
+          <p>Our relationship with Venus Concept gives our advertising the most accurate targeting in the industry. We leverage non-identifiable patient data to optimize digital ad campaigns in real time. Simply put, we are the best-equipped to deliver the right ads to the right audience at the right time for your practice.</p>
+        </div>
       </div>
-      <div class="col-md-6 offset-md-1 col-sm-12">
+      <div class="col-md-6 col-sm-12">
         <img src="<?php echo get_bloginfo( 'template_directory' );?>/images/about/2two5_website_icon_gold.png" alt="">
       </div>
     </div>

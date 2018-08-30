@@ -1,3 +1,10 @@
+<?php
+if ($_SERVER['HTTP_HOST'] == 'localhost:8888') {
+	$url = '';
+} else {
+	$url = 'http://146.66.103.28/~neograft/testtwo5.com/';
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +14,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="">
 	<meta name="author" content="">
-
 	<title>Blog Template for Bootstrap</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet">
@@ -25,14 +31,15 @@
 <body <?php body_class(); ?> >
 
 	<header class="header">
-		<a href="http://146.66.103.28/~neograft/testtwo5.com/"><img class="menu-logo" src="<?php echo get_bloginfo( 'template_directory' );?>/images/nav_logo.png" alt=""></a>
+		<a href="<?php echo $url ?>"><img class="menu-logo" src="<?php echo get_bloginfo( 'template_directory' );?>/images/nav_logo.png" alt=""></a>
 		<input class="menu-btn" type="checkbox" id="menu-btn" />
 	  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 	  <ul class="menu">
-	    <li><a href="http://146.66.103.28/~neograft/testtwo5.com/services" class="animsition-link">Services</a></li>
-	    <li><a href="http://146.66.103.28/~neograft/testtwo5.com/portfolio" class="animsition-link">Portfolio</a></li>
-	    <li><a href="http://146.66.103.28/~neograft/testtwo5.com/contact">Contact</a></li>
-	    <li><a href="http://146.66.103.28/~neograft/testtwo5.com/hiring">Hiring</a></li>
+			<li><a href="<?php echo $url ?>/" class="animsition-link">Home</a></li>
+	    <li><a href="<?php echo $url ?>services/" class="animsition-link">Services</a></li>
+	    <li><a href="<?php echo $url ?>portfolio/" class="animsition-link">Portfolio</a></li>
+	    <li><a href="<?php echo $url ?>contact/">Contact</a></li>
+	    <li><a href="<?php echo $url ?>hiring/">Hiring</a></li>
 	  </ul>
 </header>
 
